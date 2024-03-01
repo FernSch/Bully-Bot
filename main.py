@@ -471,27 +471,6 @@ async def ping(ctx):
         await ctx.send('error please try again')
 
 
-@slash.command(name="secret",
-               description="shhh",
-               
-               options=[
-                   Option(name="password",
-                          description="the password for the secret ",
-                          required=True,
-                          type=Type.INTEGER)
-               ])
-async def secret(ctx, password):
-
-    if password == 8663:
-        tell = client.get_channel(884241398650531852)
-        await tell.send(
-            f"{ctx.author.mention} just guessed the password right! <@399385792897744918>"
-        )
-        await ctx.send("discord.gg/ETVN3avcSj", ephemeral=True)
-    else:
-        await ctx.send("Error! Wrong Password!", ephemeral=True)
-
-
 @slash.command(name="userinfo",
                description="get info on a user",
                
