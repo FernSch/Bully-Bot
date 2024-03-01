@@ -23,7 +23,7 @@ from time import perf_counter
 from discord import File, Member
 
 url = "https://static.wikia.nocookie.net/jummys-rbossfight/images/0/0e/That_One_Pikachu_Costume_that_Someone_Inevitably_Puts_on_Every_Single_Year.png/revision/latest?cb=20191102121032"
-asteal = [0, 0, 0, 0, 1]  #1/5chance
+
 week = 10080
 workplace = [
     "jewelry Store", "farmers market", "school",
