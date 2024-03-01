@@ -30,7 +30,7 @@ workplace = [
     "software development company", "indie startup", "yard sale", "college",
     "university", "reserach lab", "underground government military base",
     "place im too lazy to specify", "non specific place"
-
+]
 
 client = commands.Bot(command_prefix="?", case_sensetive=False)
 slash = slash_commands.SlashClient(client)
